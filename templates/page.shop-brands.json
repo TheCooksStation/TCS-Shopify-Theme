@@ -1,0 +1,125 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow_WfCVhX": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_j8jMfm": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>SHOP BY BRAND<\/p>",
+            "title_size": 55,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/outside_day_time_16x9_a556885d-1eb7-4f0b-a194-0ad06b53d050.jpg",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_j8jMfm"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -30,
+        "mobile_size": 20,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "promo_grid_34aJnJ": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner_Xpn8LA": {
+          "type": "banner",
+          "settings": {
+            "heading": "Shop All Products",
+            "text": "",
+            "link": "shopify:\/\/collections\/newsletter-products",
+            "label": "Click Here!",
+            "color_scheme": "2"
+          }
+        },
+        "simple_bEEN4x": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/costa-nova",
+            "text": "Costa Nova",
+            "image": "shopify:\/\/shop_images\/block1_2359.jpg",
+            "width": "33",
+            "height": 400
+          }
+        },
+        "simple_WpEUnW": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/nora-flemming",
+            "text": "Nora Flemming",
+            "image": "shopify:\/\/shop_images\/summerheader_2560x_85954799-b2a6-4488-957f-d81f1aca59a0.webp",
+            "width": "33",
+            "height": 420
+          }
+        },
+        "simple_yYG4JK": {
+          "type": "simple",
+          "settings": {
+            "link": "shopify:\/\/collections\/vietri",
+            "text": "Vietri",
+            "image": "shopify:\/\/shop_images\/SUMMER-24-GG-BANNER.webp",
+            "width": "33",
+            "height": 420
+          }
+        },
+        "banner_3hYmnx": {
+          "type": "banner",
+          "settings": {
+            "heading": "Shop Gift Cards!",
+            "text": "",
+            "link": "shopify:\/\/products\/egift-card",
+            "label": "Click Here!",
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "banner_Xpn8LA",
+        "simple_bEEN4x",
+        "simple_WpEUnW",
+        "simple_yYG4JK",
+        "banner_3hYmnx"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 28,
+        "space_above": true,
+        "space_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_WfCVhX",
+    "promo_grid_34aJnJ"
+  ]
+}

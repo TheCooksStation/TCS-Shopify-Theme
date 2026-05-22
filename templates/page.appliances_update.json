@@ -1,0 +1,714 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_jYTCYa": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_qCYtYW": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide</p>",
+            "title_size": 70,
+            "subheading": "Perfect for rich lifestyle photography.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0
+          }
+        },
+        "hero_gJCFgU": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>THE KITCHEN YOU'RE PLANNING DESERVES MORE THAN A WEBSITE</p>",
+            "title_size": 60,
+            "subheading": "We're Greenville's curated appliance destination - from everyday workhorses to professional chef inspired kitchens. 20+ brands at our fingertips and a team that cooks on what we sell.",
+            "link": "shopify://pages/appliance-contact-form",
+            "link_text": "Come See Us",
+            "link_2": "shopify://pages/appliance-contact-form",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/ApplianceShowroomPlaceholder.png",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_qCYtYW",
+        "hero_gJCFgU"
+      ],
+      "name": "t:labels.hero_optional_slides",
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "rich_text_7cFmNF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XhPaYp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Educational Videos",
+            "heading_size": "h2"
+          }
+        },
+        "text_mWHh7m": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>⭐ 4.9 / 5 from 400+ reviews · Family-owned in Greenville since 1996 · Authorized retailer for Wolf, Sub-Zero, Miele</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XhPaYp",
+        "text_mWHh7m"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "1777561471f7ecdba2": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_578df23_Fih9wq": {
+          "type": "ai_gen_block_578df23",
+          "settings": {
+            "headline": "How we shop for appliances - with you, not at you.",
+            "subheading": "You probably aren't going to buy a 48-inch range twice. So we don't sell them like impulse purchases. Here's how it works when you bring a project to The Cook's Station.",
+            "text_alignment": "center",
+            "headline_size": 36,
+            "subheading_size": 16,
+            "headline_color": "#000000",
+            "subheading_color": "#484848",
+            "column_1_headline": "Visit",
+            "column_1_text": "<p>Come see us and experience the showroom. Touch the knobs, listen to the hood, ask the questions. Our team is here six days a week.</p>",
+            "column_2_headline": "Consult",
+            "column_2_text": "<p>We start with how you cook, not what you should buy. Layout, timeline, budget, who's in the kitchen.</p>",
+            "column_3_headline": "Configure & Quote",
+            "column_3_text": "<p>We spec the right sizes, finishes, fuel types, and accessories -  and we'll tell you when a less expensive option will serve you better.</p>",
+            "column_4_headline": "Order & Schedule",
+            "column_4_text": "<p>We coordinate across 20+ brands and keep you posted on lead times so your timeline holds.</p>",
+            "column_5_headline": "Install & Support",
+            "column_5_text": "<p>Delivery, authorized service, warranty registration, and a real human to call when something blinks the wrong color in three years.</p>",
+            "column_text_alignment": "center",
+            "column_headline_size": 18,
+            "column_text_size": 14,
+            "column_headline_color": "#000000",
+            "column_text_color": "#484848",
+            "show_button": true,
+            "button_text": "Book Your Consultation",
+            "button_link": "shopify://pages/appliance-contact-form",
+            "button_font_size": 16,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 32,
+            "button_border_radius": 4,
+            "button_background_color": "#393939",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#000000",
+            "button_top_spacing": 40,
+            "desktop_width_percent": 100,
+            "section_padding": 40,
+            "header_spacing": 40,
+            "subheading_spacing": 10,
+            "column_gap": 30,
+            "column_content_spacing": 10,
+            "background_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_578df23_Fih9wq"
+      ],
+      "settings": {}
+    },
+    "testimonials_ajXYGX": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_R3KbNK": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<h4>Valerie Scharf</h4><p>Valerie Scharf is a devoted mother of two and a seasoned professional with eight years of experience in the building industry. Known for her genuine care and dedication, Valerie goes above and beyond to ensure her client's needs are met with precision and compassion. Her deep understanding of the industry makes her an invaluable asset to any project. Whether working with first-time homeowners or seasoned developers, Valerie's commitment to excellence and her clients' satisfaction is evident in every interaction</p>",
+            "image": "shopify://shop_images/ConvertOut-Resized-Cook_sStation-Headshots__7.jpg",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "testimonial_nAygCL": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<h4>John Colacioppo</h4><p>John Colacioppo is one of the owners of The Cook's Station and one of our appliance specialists. With 20 years of experience in the construction industry, John brings a wealth of knowledge and expertise to his role. His time serving as a Marine background has instilled in him a sense of discipline and dedication that he applies to every aspect of his business. At The Cook's Station, John combines his technical skills and passion for appliances to provide exceptional service and guidance to his customers, ensuring they find the perfect fit for their culinary needs</p>",
+            "image": "shopify://shop_images/ConvertOut-Resized-Cook_sStation-Headshots__9.jpg",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "testimonial_niWJGe": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<h4>Michael Moore Jr.</h4><p>Michael is a dedicated appliance salesman at The Cook's Station and a proud Marine veteran. His military background has endowed him with a strong work ethic, attention to detail, and a commitment to excellence. His friendly demeanor, coupled with his expertise, ensures that every customer receives top-notch service and personalized recommendations.</p>",
+            "image": "shopify://shop_images/ConvertOut-Resized-Cook_sStation-Headshots__5.jpg",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "testimonial_RGrcRh": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "testimonial": "",
+            "image": "shopify://shop_images/Michelle_McDoanld_8x10_c004ffec-a12b-46c8-8241-096564d9b229.jpg",
+            "author": "Michelle McDonald",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_R3KbNK",
+        "testimonial_nAygCL",
+        "testimonial_niWJGe",
+        "testimonial_RGrcRh"
+      ],
+      "settings": {
+        "title": "Our Sales Team",
+        "align_text": "center",
+        "round_images": false,
+        "color_scheme": "none"
+      }
+    },
+    "rich_text_mT8GLk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gXB4mT": {
+          "type": "heading",
+          "settings": {
+            "title": "Start Here Guides",
+            "heading_size": "h2"
+          }
+        },
+        "text_tULLcm": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Start here - learn about appliances from the people who use them all the time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gXB4mT",
+        "text_tULLcm"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "advanced_content_HjbTFG": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_rByVM8": {
+          "type": "liquid",
+          "settings": {
+            "code": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.ytb.reputon.com/assets/widget.js?shop=the-cooks-station.myshopify.com\" defer></script>\n<div class=\"reputon-youtube-widget\"\n                 data-content-index=\"1\"\n                 data-autoscroll=\"true\"\n                 data-theme=\"light\"\n                 data-widget-type=\"carousel\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_rByVM8"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "logo_list_hJexFy": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_4VHWNB": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Sub_Zero.png",
+            "link": "https://www.subzero-wolf.com/offers-and-promotions"
+          }
+        },
+        "logo_image_hYihLt": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Wolf.png",
+            "link": "https://www.subzero-wolf.com/offers-and-promotions"
+          }
+        },
+        "logo_image_wbaWBT": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Cove__logo__svg.png",
+            "link": "https://ventahood.com/"
+          }
+        },
+        "logo_image_GBqFzH": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Monogram.png",
+            "link": "https://www.monogram.com/offers/one-for-you-one-for-free/"
+          }
+        },
+        "logo_image_Xf8nHf": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Cafe.png",
+            "link": ""
+          }
+        },
+        "logo_image_9eFkB6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Pofile.png",
+            "link": ""
+          }
+        },
+        "logo_image_C69Rx9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/GE_Appliances_logo.png",
+            "link": "https://www.geappliances.com"
+          }
+        },
+        "logo_image_Cmqp6T": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Fisher.png",
+            "link": "https://www.fisherpaykel.com/us/"
+          }
+        },
+        "logo_image_XHkKth": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/download_1.png",
+            "link": "https://www.dcsappliances.com/us/grilling/grills/all-grills/"
+          }
+        },
+        "logo_image_GfDreE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Miele.png",
+            "link": "https://www.mieleusa.com/c/125-years-of-miele-5853.htm"
+          }
+        },
+        "logo_image_3WRWmx": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Blue_Star.png",
+            "link": "https://www.bluestarcooking.com/"
+          }
+        },
+        "logo_image_mkMhJa": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Fulgor.png",
+            "link": "https://www.fulgor-milano.com/us/en"
+          }
+        },
+        "logo_image_KKjfjC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/download.png",
+            "link": "https://bestrangehoods.com/"
+          }
+        },
+        "logo_image_qKe6DE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/XOAppliance.png",
+            "link": "https://xoappliance.com/"
+          }
+        },
+        "logo_image_PzW4EG": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Black.svg",
+            "link": "https://zephyronline.com/"
+          }
+        },
+        "logo_image_8RPnkK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo_03.jpg",
+            "link": "https://alfrescogrills.com/"
+          }
+        },
+        "logo_image_qqgYG7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/maytag-3-logo-png-transparent.png",
+            "link": "https://us.asko.com/promotions"
+          }
+        },
+        "logo_image_A8eRqQ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo-homepage-200-x-200.png",
+            "link": "https://scotsmanhomeice.com/"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_4VHWNB",
+        "logo_image_hYihLt",
+        "logo_image_wbaWBT",
+        "logo_image_GBqFzH",
+        "logo_image_Xf8nHf",
+        "logo_image_9eFkB6",
+        "logo_image_C69Rx9",
+        "logo_image_Cmqp6T",
+        "logo_image_XHkKth",
+        "logo_image_GfDreE",
+        "logo_image_3WRWmx",
+        "logo_image_mkMhJa",
+        "logo_image_KKjfjC",
+        "logo_image_qKe6DE",
+        "logo_image_PzW4EG",
+        "logo_image_8RPnkK",
+        "logo_image_qqgYG7",
+        "logo_image_A8eRqQ"
+      ],
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "settings": {
+        "title": "Some Of Our Favorite Brands",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "divider": true
+      }
+    },
+    "text_columns_C6r9tx": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_4AhEiX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_7858ff75-9c4e-4a97-894b-3dfd85359311.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Quality Over Quantity",
+            "text": "<p>There are hundreds of appliance brands and we recommend a fraction of them. The ones we put in our own homes. The ones we cook on in our teaching kitchen. The ones we'd recommend to our parents.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_ek7NLF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/4.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "We LOVE  Appliances",
+            "text": "<p>Our appliance specialists have a combined 40 years specifying kitchens for Upstate homes. We know what will work for you in the long run - not just the trendiest widget right now.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_47FnXb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_5410bd2f-c0d6-4f7e-9018-82f6fab51cc7.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Family-Owned",
+            "text": "<p>We're not a chain and we're not going anywhere. The same familiar voice answers the phone, the same team services your kitchen, and the same shop teaches the cooking class your daughter takes next spring.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_4AhEiX",
+        "text_block_ek7NLF",
+        "text_block_47FnXb"
+      ],
+      "name": "t:labels.text_columns_with",
+      "settings": {
+        "title": "Why people in the Upstate plan their kitchens with us.",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "testimonials_rarQ9e": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_yGLCHU": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>i'm a review!</p>",
+            "image": "shopify://shop_images/dog-puppy-on-garden-royalty-free-image-1586966191.avif",
+            "author": "customer",
+            "author_info": "Greenville, SC"
+          }
+        },
+        "testimonial_mLLwKG": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>i'm a review!!</p>",
+            "image": "shopify://shop_images/dog-puppy-on-garden-royalty-free-image-1586966191.avif",
+            "author": "bill",
+            "author_info": "Mauldin, SC"
+          }
+        },
+        "testimonial_GCe6pE": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>reviews are neat</p>",
+            "image": "shopify://shop_images/dog-puppy-on-garden-royalty-free-image-1586966191.avif",
+            "author": "poppy",
+            "author_info": "Simpsonville, SC"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yGLCHU",
+        "testimonial_mLLwKG",
+        "testimonial_GCe6pE"
+      ],
+      "name": "t:labels.testimonials",
+      "settings": {
+        "title": "What your neighbors say.",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "none"
+      }
+    },
+    "rich_text_BjWjy7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eEmekF": {
+          "type": "heading",
+          "settings": {
+            "title": "Serving the Upstate - and beyond.",
+            "heading_size": "h2"
+          }
+        },
+        "text_GRyr8r": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We work with homeowners, builders, and designers across Greenville, Greer, Spartanburg, Anderson, Easley, Travelers Rest, Lake Keowee, Lake Hartwell, and the Cliffs communities. Whether you're remodeling a downtown bungalow or finishing a lake house, we coordinate delivery, install, and service across the region.</p>"
+          }
+        },
+        "button_EcT6c6": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/appliance-contact-form",
+            "link_text": "Book a Showroom Visit"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eEmekF",
+        "text_GRyr8r",
+        "button_EcT6c6"
+      ],
+      "name": "t:labels.rich_text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "rich_text_aPed7y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3jUkXK": {
+          "type": "heading",
+          "settings": {
+            "title": "APPOINTMENT HOURS",
+            "heading_size": "h2"
+          }
+        },
+        "text_YKHRki": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>• Monday- Friday: 8 am-5 pm <br/>•  Saturday: 10-4 pm<br/>• Closed the 1st Saturday of the month<br/>•Sunday: Closed </p>"
+          }
+        },
+        "button_wQmxnU": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/appliance-contact-form",
+            "link_text": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3jUkXK",
+        "text_YKHRki",
+        "button_wQmxnU"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "promo_grid_mGt8AN": {
+      "type": "promo-grid",
+      "blocks": {
+        "image_C6pgXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Showhouse6_BlueStar.png",
+            "link": "",
+            "width": "33"
+          }
+        },
+        "image_yF66tE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Prep_Area_fridgeopen_Indoor_Prod_Refrig.png",
+            "link": "",
+            "width": "33"
+          }
+        },
+        "image_Q4yRt3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20000149430.png",
+            "link": "",
+            "width": "33"
+          }
+        },
+        "image_PAzgec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Background_copy.png",
+            "link": "",
+            "width": "50"
+          }
+        },
+        "image_BVk4cC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bosch_kitchen2_1162cc8a-e54c-4551-a426-794bf36fca54.png",
+            "link": "",
+            "width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "image_C6pgXN",
+        "image_yF66tE",
+        "image_Q4yRt3",
+        "image_PAzgec",
+        "image_BVk4cC"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 15,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "rich_text_jGJTeV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XkgPQJ": {
+          "type": "heading",
+          "settings": {
+            "title": "PROMOTIONS & REBATES",
+            "heading_size": "h2"
+          }
+        },
+        "text_UhBT7U": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Making sure you get the best deal on your kitchen and major appliances is important to us. Check out all of our current manufacturer deals and rebates on appliances by clicking the button below. Please <a href=\"mailto:john@thecooksstation.com\">reach out</a> if you have any questions.</p>"
+          }
+        },
+        "button_MUAXgH": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/sales-rebates",
+            "link_text": "View Deals!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XkgPQJ",
+        "text_UhBT7U",
+        "button_MUAXgH"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_jYTCYa",
+    "rich_text_7cFmNF",
+    "1777561471f7ecdba2",
+    "testimonials_ajXYGX",
+    "rich_text_mT8GLk",
+    "advanced_content_HjbTFG",
+    "logo_list_hJexFy",
+    "text_columns_C6r9tx",
+    "testimonials_rarQ9e",
+    "rich_text_BjWjy7",
+    "rich_text_aPed7y",
+    "promo_grid_mGt8AN",
+    "rich_text_jGJTeV"
+  ]
+}

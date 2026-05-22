@@ -1,0 +1,165 @@
+{% # components v2.10.64 | Copyright © 2024 Archetype Themes Limited Partnership | "Shopify Theme Store (https://www.shopify.com/legal/terms#9-additional-services)" License %}
+
+{%- comment -%}
+  Renders a Private Events contact form.
+
+  This is a modified version of the standard contact form
+  with additional Private Events fields.
+{%- endcomment -%}
+
+{%- liquid
+  assign narrow_column = narrow_column | default: section.settings.narrow_column, allow_false: true | default: false, allow_false: true
+  assign title = title | default: section.settings.title
+  assign text = text | default: section.settings.text
+  assign heading_position = heading_position | default: section.settings.heading_position | default: 'center'
+  assign heading_size = heading_size | default: section.settings.heading_size | default: 'h2'
+  assign customer = customer | default: customer
+  assign show_phone = show_phone | default: section.settings.show_phone, allow_false: true | default: false, allow_false: true
+  assign color_scheme = color_scheme | default: section.settings.color_scheme
+
+  unless color_scheme
+    assign class_name = 'contact-form-' | append: section.id
+    render 'color-scheme-override', class_name: class_name
+  endunless
+-%}
+
+<div class="index-section contact-form-{{ section.id }} color-scheme-{{ color_scheme }}">
+  {%- if color_scheme != 'none' -%}
+    {%- render 'color-scheme-texture', color_scheme: color_scheme -%}
+  {%- endif -%}
+
+  <div class="page-width{% if narrow_column %} page-width--narrow{% endif %}">
+    {%- if title != blank or text != blank -%}
+      <div class="section-header text-{{ heading_position }}">
+        {%- if title != blank -%}
+          <h2 class="section-header__title {{ heading_size }}">
+            {{ title }}
+          </h2>
+        {%- endif -%}
+        {%- if text != blank -%}
+          <div class="rte section-header__rte clearfix">
+            {{ text }}
+          </div>
+        {%- endif -%}
+      </div>
+    {% endif %}
+
+    <div class="form-vertical">
+      {%- assign form_id = 'contact-' | append: section.id -%}
+      {%- form 'contact', id: form_id -%}
+
+        {%- if form.posted_successfully? -%}
+          <p class="note note--success">
+            {{ 'info.contact_confirmation' | t }}
+          </p>
+        {%- endif -%}
+
+        {{ form.errors | default_errors }}
+
+        <div class="grid grid--small clearfix">
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormName-{{ section.id }}">
+              {{ 'labels.name' | t }}
+            </label>
+            <input
+              type="text"
+              id="ContactFormName-{{ section.id }}"
+              class="input-full"
+              name="contact[name]"
+              autocapitalize="words"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              required
+            >
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormEmail-{{ section.id }}">
+              {{ 'labels.email' | t }}
+            </label>
+            <input
+              type="email"
+              id="ContactFormEmail-{{ section.id }}"
+              class="input-full"
+              name="contact[email]"
+              autocorrect="off"
+              autocapitalize="off"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              required
+            >
+          </div>
+        </div>
+
+        {%- if show_phone -%}
+          <label for="ContactFormPhone-{{ section.id }}">
+            {{ 'labels.phone_number' | t }}
+          </label>
+          <input
+            type="tel"
+            id="ContactFormPhone-{{ section.id }}"
+            class="input-full"
+            name="contact[phone]"
+            pattern="[0-9\\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+          >
+        {%- endif -%}
+
+        <!-- Private Events Fields -->
+        <label for="ContactFormExpectedDate-{{ section.id }}">
+          Expected Event Date
+        </label>
+        <input
+          type="date"
+          id="ContactFormExpectedDate-{{ section.id }}"
+          name="contact[Expected Event Date]"
+          class="input-full"
+          required
+        >
+
+        <label for="ContactFormHeadCount-{{ section.id }}">
+          Estimated Head Count
+        </label>
+        <select
+          id="ContactFormHeadCount-{{ section.id }}"
+          name="contact[Estimated Head Count]"
+          class="input-full"
+          required
+        >
+          <option value="" disabled selected>Select number of guests</option>
+          {% for i in (1..20) %}
+            <option value="{{ i }}">{{ i }}</option>
+          {% endfor %}
+        </select>
+
+        <input
+          type="hidden"
+          name="contact[Form Type]"
+          value="Private Events"
+        >
+
+        <label for="ContactFormMessage-{{ section.id }}">
+          {{ 'labels.message' | t }}
+        </label>
+        <textarea
+          rows="5"
+          id="ContactFormMessage-{{ section.id }}"
+          class="input-full"
+          name="contact[body]"
+        >{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+        <label for="contact-form-submit-{{ section.id }}" class="visually-hidden">
+          {{ 'actions.send' | t }}
+        </label>
+        <button
+          type="submit"
+          id="contact-form-submit-{{ section.id }}"
+          class="btn"
+        >
+          {{ 'actions.send' | t }}
+        </button>
+
+        {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+
+      {%- endform -%}
+    </div>
+  </div>
+</div>

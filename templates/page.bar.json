@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "promo_grid_qTGxJq": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_VBBHnG": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Drink & Be Merry",
+            "textarea": "<div style=\"padding:12px;border: 1px solid;width:vw;display: inline-block;\">\n<p style=\"font-size:large;font-weight:bold;display: inline-block;\">HAPPY HOUR</p>\n<p style='font-size:small;font-weight:bold\"'>• Monday - Friday: 4:30-6:00pm<br>$3 Off Tapas and Wine By The Glass<br><br>• Saturday - Sunday 2:00pm - 4:00pm<br> $3 Off Wine By The Glass </p>\n</div>",
+            "cta_text1": "",
+            "cta_link1": "https://www.thecooksstation.com/pages/bar-tapas.html#shopify-section-template--17974951575777__text_columns_M3xf6e",
+            "cta_text2": "",
+            "cta_link2": "https://www.thecooksstation.com/pages/bar-tapas.html#shopify-section-template--17974951575777__text_columns_wQehrL",
+            "image": "shopify://shop_images/Cooks-Station_Huang-shoot_wine-holder.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 420,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "advanced_VBBHnG"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{font-size: large;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "slideshow_BbDDEQ": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_CAHjXB": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>BAR AND TAPAS MENU</p>",
+            "title_size": 64,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/ConvertOut-Resized-Cook_sStation-Food_Patio_Tapas__26_49f08674-5b1d-4133-8a69-365da55ff139.jpg",
+            "overlay_opacity": 16
+          }
+        }
+      },
+      "block_order": [
+        "hero_CAHjXB"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "desktop_size": -30,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "slideshow_image_GdpPnj": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_pxaVtT": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/Bar_Menu_Print_Out_6.png",
+            "image_mobile": "shopify://shop_images/Bar_Menu_Print_Out_6.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_pxaVtT"
+      ],
+      "name": "t:labels.image_optional_slides",
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "slideshow_image_etgQ6L": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_rgrWyy": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/Bar_Menu_Print_Out_3.png",
+            "image_mobile": "shopify://shop_images/Bar_Menu_Print_Out_3_93e909fb-340b-4682-aa0c-8cd3386b2b5d.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_rgrWyy"
+      ],
+      "name": "t:labels.image_optional_slides",
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "text_columns_M3xf6e": {
+      "type": "text-columns",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "promo_grid_qTGxJq",
+    "slideshow_BbDDEQ",
+    "slideshow_image_GdpPnj",
+    "slideshow_image_etgQ6L",
+    "text_columns_M3xf6e"
+  ]
+}
