@@ -143,6 +143,7 @@
     },
     "text_and_image_kCeTqw": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "t:labels.image_with_text",
       "settings": {
         "image": "shopify://shop_images/Copy_of_april_2026_Burger_Night.png",
@@ -166,6 +167,7 @@
     },
     "text_and_image_yaEnXV": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/hotel-breakfast-room-service.jpg",
         "image_mask": "none",
@@ -190,7 +192,7 @@
       "type": "text-and-image",
       "name": "t:labels.image_with_text",
       "settings": {
-        "image": "shopify://shop_images/Knife_Sharpening_Calender.png",
+        "image": "shopify://shop_images/Knife_Sharpening_Calender_1.png",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
